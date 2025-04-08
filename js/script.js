@@ -5,7 +5,7 @@ function init() {
     const output = document.getElementById("textoutput");
     button.addEventListener("click", function () {
       const userInput = input.value;
-      alert(userInput);  
+      alert("JamalJowdeh:" + userInput);  
       output.textContent = userInput;
     });
   }
